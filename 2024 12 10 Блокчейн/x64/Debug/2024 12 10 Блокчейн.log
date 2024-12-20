@@ -1,0 +1,58 @@
+﻿  2024 12 10 Блокчейн.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\xutility(442,85): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "2024 12 10 Блокчейн.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\xutility(442,85):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\A\source\repos\20241210Blockchain\2024 12 10 Блокчейн\2024 12 10 Блокчейн.cpp(73,15):
+          выполняется компиляция ссылки на экземпляр шаблон функции "Block &std::vector<Block,std::allocator<Block>>::emplace_back<unsigned __int64,const std::string&,const std::string&,int&>(unsigned __int64 &&,const std::string &,const std::string &,int &)"
+              C:\Users\A\source\repos\20241210Blockchain\2024 12 10 Блокчейн\2024 12 10 Блокчейн.cpp(73,27):
+              см. первую ссылку на std::vector<Block,std::allocator<Block>>::emplace_back "Blockchain::addBlock"
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\vector(858,24):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<unsigned __int64,const std::string&,const std::string&,int&>(unsigned __int64 &&,const std::string &,const std::string &,int &)"
+          with
+          [
+              _Ty=Block
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\vector(776,20):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<unsigned __int64,const std::string&,const std::string&,int&>(unsigned __int64 &&,const std::string &,const std::string &,int &)"
+          with
+          [
+              _Ty=Block
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\vector(794,27):
+          выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64,const std::string&,const std::string&,int&>(_Alloc &,_Objty *const ,unsigned __int64 &&,const std::string &,const std::string &,int &)"
+          with
+          [
+              _Alloc=std::allocator<Block>,
+              _Ty=Block,
+              _Objty=Block
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\xmemory(700,14):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_Ty *std::construct_at<_Objty,unsigned __int64,const std::string&,const std::string&,int&>(_Ty *const ,unsigned __int64 &&,const std::string &,const std::string &,int &) noexcept(<expr>)"
+          with
+          [
+              _Ty=Block,
+              _Objty=Block
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\xutility(443,90): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "2024 12 10 Блокчейн.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\xutility(443,90):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\vector(794,27):
+          выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64,const std::string&,const std::string&,int&>(_Alloc &,_Objty *const ,unsigned __int64 &&,const std::string &,const std::string &,int &)"
+          with
+          [
+              _Alloc=std::allocator<Block>,
+              _Ty=Block,
+              _Objty=Block
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.43.34604\include\xmemory(700,14):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_Ty *std::construct_at<_Objty,unsigned __int64,const std::string&,const std::string&,int&>(_Ty *const ,unsigned __int64 &&,const std::string &,const std::string &,int &) noexcept(false)"
+          with
+          [
+              _Ty=Block,
+              _Objty=Block
+          ]
+  
+  2024 12 10 Блокчейн.vcxproj -> C:\Users\A\source\repos\20241210Blockchain\x64\Debug\2024 12 10 Блокчейн.exe
